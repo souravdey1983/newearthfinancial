@@ -1,0 +1,435 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	
+}
+
+.contact{
+	vertical-align: center;
+}
+
+.call{
+	position: absolute;
+	top: 5px;
+	left: 200px;
+	height: 6%;
+	width: 3%;
+}
+
+.calltext{
+	position: absolute;
+	top: 10px;
+	left: 240px;
+}
+
+.email{
+	position: absolute;
+	top: 5px;
+	left: 650px;
+	height: 5%;
+	width: 2.5%;
+}
+
+.linktext{
+	position: absolute;
+	top: 8px;
+	left: 690px;
+	text-decoration: none;
+}
+.mainlogo{
+	position: absolute;
+	top: 40px;
+	left: 200px;
+	height: 22%;
+	width: 62%;
+
+	
+}
+
+.container{
+
+	position: absolute;
+	top: 180px;
+}
+
+/* NAVBAR CREATION START */
+ul.mainmenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid #e7e7e7;
+  background-color: #f3f3f3;
+  position: relative;
+  top: 160px;
+
+}
+
+li {
+  float: left;
+ margin-left: 10px;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+li a.active {
+  color: white;
+  background-color: #4CAF50;
+}
+
+/* NAVBAR CREATION END */
+
+ul.loan_list{
+	display: inline;
+	position: relative;
+	top: 170px;
+	left: 80px;
+}
+
+.bank_info_image{
+	position: relative;
+	top: 180px;
+	z-index: 1;
+}
+
+.bank_info_text{
+	position: relative;
+	z-index:2;
+	width: 45%;
+	left: 50px;
+	top: -200px;
+}
+
+ul.bank_info_item li{
+	line-height: 30px;
+}
+
+
+
+/*div.inputform{
+
+	position: relative;
+	top: 130px;
+	border-radius: 5px;
+  	background-color: #f2f2f2;
+  	left: -150px;
+
+}
+
+div.inputform .form-inline {  
+  display: flex;
+  flex-flow: row wrap;
+}
+
+input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=date]{
+	width: 40%;
+	padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+*/
+
+.inputform{
+	background-color: #4e4f51;
+  width: 700px;
+  position: relative; 
+  top: 120px;
+  margin: auto;
+}
+
+.inputform #formtext{
+	position: relative;
+	left: -150px;
+}
+
+#frmtxt{
+	color: white;
+	text-align: center;
+}
+
+form{
+padding-top: 10px;
+
+}
+
+#fname{
+  position: relative;
+  top: 5px;
+  left: -230px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#lname{
+	position: relative;
+  top: -52px;
+  left: 70px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#phone{
+	position: relative;
+  top: -52px;
+  left: 65px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#email{
+	position: relative;
+  top: -52px;
+  left: 82px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#industry{
+	position: relative;
+  top: -52px;
+  left: 65px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+
+#mgross{
+	position: relative;
+  top: -52px;
+  left: 82px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#bsdate{
+	position: relative;
+  top: -52px;
+  left: 65px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#loanamt{
+	position: relative;
+  top: -52px;
+  left: 82px;
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit]{
+	width: 30%;
+  background-color: #fe6161;
+  color: white;
+  position: relative;
+  top: -52px;
+  left: 250px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover{
+	background-color: #ed4545;
+}
+
+
+.threeprocess{
+	background-color: #f2f2f2;
+	width: 100%;
+	
+	position: relative;
+	top: 130px;
+
+}
+
+
+.threeprocess .processtext{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+div.threeprocess .part1{
+	width: 30%;
+	height: 30%;
+}
+
+div.threeprocess .part1 .part1image{
+	padding-left: 10px;
+	padding-right: 5px;
+	position: relative;
+	top: 0px;
+	left: 10px;
+	}
+
+div.threeprocess .part1textdiv{
+	
+	width: 33%;
+	text-align: center;
+}	
+
+div.threeprocess .part1textdiv .part1text{
+	position: relative;
+	top: 0px;
+	left: 20px;
+
+}
+
+
+div.threeprocess .part2{
+	width: 30%;
+	height: 30%;
+}
+
+div.threeprocess .part2 .part2image{
+	padding-left: 10px;
+	padding-right: 5px;
+	position: relative;
+	top: -254px;
+	left: 360px;
+	}
+
+div.threeprocess .part2textdiv{
+	
+	width: 30%;
+	text-align: center;
+}	
+
+div.threeprocess .part2textdiv .part2text{
+	position: relative;
+	top: -254px;
+	left: 360px;
+}
+
+
+	div.threeprocess .part3{
+	width: 30%;
+	height: 30%;
+}
+
+div.threeprocess .part3 .part3image{
+	padding-left: 10px;
+	padding-right: 5px;
+	position: relative;
+	top: -546px;
+	left: 710px;
+	}
+
+div.threeprocess .part3textdiv{
+	
+	width: 33%;
+	text-align: center;
+}
+
+
+	div.threeprocess .part3textdiv .part3text{
+	position: relative;
+	top: -546px;
+	left: 710px;
+}
+
+
+input[type=button]{
+	width: 30%;
+  background-color: #efaa42;
+  color: white;
+  position: relative;
+  top: -500px;
+  left: 370px;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius:30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+
+input[type=button]:hover{
+	background-color: #cf8619;
+}
